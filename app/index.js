@@ -19,7 +19,7 @@ export default function App() {
             onRequestClose={() => {
               Alert.alert('Modal has been closed.');
               setModalVisible(!modalVisible);
-            }}>
+            }} >
             <View style={styles.centeredView}>
               <View style={styles.modalView}>
                 <Text style={styles.modalText}>See u soon</Text>
@@ -66,7 +66,6 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 4,
     elevation: 5,
-
   },
   button: {
     borderRadius: 20,
